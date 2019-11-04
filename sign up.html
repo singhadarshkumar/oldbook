@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+	
+	<title>Old Book | Sign Up</title>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
+	<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+      
+	  .bcg
+	  {
+		background:red;
+	  }
+	  
+	  a,a:link,a:active,a:hover
+	  {
+		text-decoration:none;		
+	  }
+	  
+	  .know-more
+	  {
+			width:150px;
+			height:50px;
+			background:white;
+			color:black;
+			font-size:17px;
+			border:2px solid black;
+	  }
+	  
+	   .know-more:hover, .know-more:focus
+	  {
+			border:2px solid orange;
+			outline:0 none;
+			font-size:19px;
+			font-weight:400;
+	  }
+	  
+	  .join-us
+	  {
+			width:150px;
+			height:50px;
+			background:black;
+			color:white;
+			font-size:17px;
+			border:0px solid black;
+			font-weight:500;
+			letter-spacing:2px;
+	  }
+	  
+	  .join-us:hover, .join-us:focus
+	  {
+			background:orange;
+			color:black;
+			outline:0 none;
+			font-size:18px;
+	  }
+	  
+	  .search
+	  {
+			width:30vw;
+			height:50px;
+			background:lightgrey;
+			color:black;
+			font-size:17px;
+			border:0px solid black;
+			font-weight:500;
+			letter-spacing:1px;
+			margin-top:100px;
+			text-indent:17px;
+	  }
+	  
+	  .search-box::placeholder
+	  {
+			font-size:15px;
+			color:grey;
+			letter-spacing:1px;
+			font-weight:normal;
+			text-indent:20px;
+	  }
+	  
+	  .search-box:hover
+	  {
+		    border:0px solid orange;
+			border-left:10px solid orange;		
+			text-indent:7px;
+			outline:0px solid;
+	  }
+	  
+	  .search-box:focus
+	  {
+		border:0px solid orange;
+		border-left:10px solid orange;	
+		text-indent:7px;
+		outline:0px solid;			
+	  }
+	  
+	  .search-box:focus::placeholder
+	  {
+		text-indent:10px;
+	  }
+	  
+	  .search-box:hover::placeholder
+	  {
+			text-indent:10px;
+			outline:0px solid;
+	  }
+	  
+
+	
+	  	  
+	  .home-hover
+	  {
+		background:black;
+		color:white;
+		border:2px solid white;
+	  }
+	 
+	
+	  .home-hover:hover
+	  {
+		background:orange;
+		color:black;
+		overflow:hidden;
+	  }
+	  
+	  .nav-hover
+	  {
+		border:2px solid white;
+		overflow:hidden;
+	  }	
+	
+	  .nav-hover:hover
+	  {
+		border:2px solid orange;
+		overflow:hidden;	
+	  }
+	  
+	  .oldtext
+	  {
+		background-image:url('Images/old.jpg');
+		color:transparent;
+		-webkit-background-clip:text;
+		background-size:300%;
+		filter:brightness(100%);		
+	  }
+	  
+	  .animate-old
+	  {
+		animation: a1 5s ease-in-out infinite;
+	  }
+	  
+	  @keyframes a1
+	  {
+			0%
+			{
+			background-position:0%;
+			color:black;
+			}
+			
+			80%
+			{
+			background-position:100%;
+			color:transparent;
+			}
+			
+			100%
+			{
+			background-position:100%;
+			color:black;
+			}
+	  }
+	  
+	  
+	@media(max-width:1024px)
+	{
+    	.size-change
+		{
+			font-size:85px;	
+			color:black; 
+			font-weight:400; 
+			line-height:20px
+			
+    	}
+		
+		.size-change2
+		{
+			font-size:105px;	
+			font-weight:550;
+			line-height:140px;
+			color:red;
+			background-image:url('Images/old.jpg');
+			color:transparent;
+			-webkit-background-clip:text;
+			background-size:300%;
+			filter:brightness(100%);
+    	}
+		
+    }
+	  
+	@media(min-width:1024px)
+	{
+		.text-account-size
+		{
+			font-size:120px;
+			color:black; 
+			font-weight:400; 
+			line-height:20px
+		}
+		
+		.text-no-size
+		{
+			font-size:160px;
+			font-weight:550;
+			line-height:140px;
+			background-image:url('Images/old.jpg');
+			color:transparent;
+			-webkit-background-clip:text;
+			background-size:300%;
+			filter:brightness(100%);
+		}
+	}
+	
+	.inputbox
+			{
+				width:25vw;
+				border:0px;
+				border-bottom:solid lightgrey 1px;
+				background:rgba(0,0,0,0);
+				font-size:18px;
+				color:white;
+			}
+			
+	input[type="email"]:focus
+		{
+			outline:none;
+			border-bottom:solid royalblue 2px;
+		}
+		
+	input[type="text"]:focus
+		{
+			outline:none;
+			border-bottom:solid royalblue 2px;
+		}
+		
+	.login-button
+	  {
+			width:130px;
+			height:45px;
+			background:white;
+			color:black;
+			font-size:17px;
+			border:0px solid black;
+			font-weight:500;
+			letter-spacing:2px;
+	  }
+	  
+	   .login-button:hover
+	  {
+			background:orange;
+			color:black;
+			font-size:19px;
+			outline:none;
+	  }
+		
+	
+	
+	</style>
+
+	
+</head>
+
+<body>
+	<div class="container-fluid">
+	
+		
+		
+		<div class="row">
+		
+			<div class="col-lg-4 col-md-6 col-sm-12" style="height:100vh; background:white">
+				
+				<div class="col-lg-12 col-xs-12 col-md-6">
+			
+					<div class="row mt-5">				
+						<div class="col-lg-9 col-md-6 col-sm-12" style="margin-top:5px">			
+							<h3 style="letter-spacing: 5px; font-weight: 750;">Sign Up</h3>
+						</div>
+					</div>
+					<div class="row mt-3">				
+						<div class="col-lg-3 col-md-0 col-sm-0"></div>
+						<div class="col-lg-9 col-md-6 col-sm-12" >
+							<p class="d-block mx-auto mt-5"><img src="Images/logo3.jpg" style="width:170px; height:250px"></p>
+						</div>
+					</div>
+					<div class="row mt-5">				
+						<div class="col-lg-3 col-md-0 col-sm-0 col-xs-0"></div>
+						<div class="col-lg-9 col-md-6 col-sm-12 col-xs-6">			
+							<a href="about.html" ><input type="button" class="know-more ml-2" value="Know More"></a>
+						</div>
+						
+						<div class="col-lg-3 col-md-0 col-sm-0 col-xs-0"></div>
+						<div class="col-lg-9 col-md-6 col-sm-12 col-xs-6">			
+							<a href="login.html"><input type="button" class="join-us ml-2 mt-4" value="Go Back"></a>
+						</div>
+					</div>	
+				</div>	
+				
+			</div>
+
+
+			<div class="col-lg-4 col-md-6 col-sm-12" style="height:100vh; background:#202020">
+				
+				
+				<div class="col-lg-12 col-xs-12 col-md-6">
+					<div class="row mt-5">				
+						<div class="col-lg-9 col-md-6 col-sm-12" style="margin-top:15px">			
+							<h3 style="color:aliceblue; font-size: 15px; letter-spacing: 2px;">PERSONAL DETAILS</h3>
+						</div>
+					</div>
+					<div class="col-lg-12 col-xs-12 col-md-6 m-0 " >
+						<div class="row">
+							<div class="col-lg-2 col-md-0"></div>
+							<div class="col-lg-8 col-md-12">
+								<form style="border:5px;" >
+									
+									<input type="text" class="inputbox mt-5 mb-3 w-100" id="b1" placeholder="Firstname"  spellcheck=false >
+							       
+									
+									<input type="text" class="inputbox my-3 w-100" id="b2" placeholder="Lastname"  spellcheck=false >
+									
+									<select class="inputbox my-3 w-100 " id="b4" style="background: #202020;">
+											<option selected>Date
+											<option>02	<option>03	<option>04 	<option>05	<option>06 	<option>07
+											<option>08  <option>09	<option>10	<option>11	<option>12  <option>13
+											<option>14	<option>15  <option>16	<option>17	<option>18	<option>19
+											<option>20  <option>21	<option>22	<option>23	<option>24  <option>25
+											<option>26	<option>27  <option>28	<option>29	<option>30	<option>31				
+											
+										</select>
+									
+
+									<select name="month" class="inputbox my-3 w-100" id="b5" style="background:#202020;">
+											<option value="Month">Month</option>
+											<option value="January">January</option>
+											<option value="February">February</option>
+											<option value="March">March</option>
+											<option value="April">April</option>
+											<option value="May">May</option>
+											<option value="June">June</option>
+											<option value="July">July</option>
+											<option value="August">August</option>
+											<option value="September">September</option>
+											<option value="October">October</option>
+											<option value="November">November</option>
+											<option value="December">December</option>
+										</select>
+
+										<select class="inputbox my-3 w-100" id="b6" style="background: #202020;">
+											<option selected>Year
+											<option>1990	<option>1991	<option>1992 	<option>1993	<option>1994 	<option>1995
+											<option>1996  <option>1997	<option>1998	<option>1999	<option>2000  <option>2001
+											<option>2002	<option>2003  <option>2004	<option>2005	<option>2006	<option>2007
+											<option>2008  <option>2009	<option>2010	<option>2010	<option>2011  <option>2012
+											<option>2013	<option>2014  <option>2015	<option>2016	<option>2017	<option>2018	<option>2019			
+											
+										</select>
+
+										
+											
+									<input type="text" class="inputbox my-3 w-100" id="b3" placeholder="Phone no."  spellcheck=false >
+									
+									<input type="text" class="inputbox my-3 w-100" id="b7" placeholder="Address"  spellcheck=false >
+							        
+									
+									<input type="text" class="inputbox my-3 w-100" id="b8" placeholder="State"  spellcheck=false >
+								 </form> 
+							</div>
+							<div class="col-lg-2 col-md-0 "></div>
+						</div>
+						
+						
+						
+						
+					</div>
+				</div>	
+			</div>
+
+
+
+			<div class="col-lg-4 col-md-12 col-sm-12" style="height:100vh; background:black">
+			
+					<div class="col-lg-12 col-xs-12 col-md-6">
+							<div class="row mt-5">				
+								<div class="col-lg-9 col-md-6 col-sm-12" style="margin-top:15px">			
+									<h3 style="color:aliceblue; font-size: 15px; letter-spacing: 2px;">ACCOUNT DETAILS</h3>
+								</div>
+							</div>
+							<div class="col-lg-12 col-xs-12 col-md-6 m-0 " >
+									<div class="row">
+										<div class="col-2"></div>
+										<div class="col-8">
+											<form style="border:5px;" >
+												
+												<input type="text" class="inputbox mt-5 mb-3 w-100" id="b9" placeholder="Email"  spellcheck=false >
+											   
+												
+												<input type="text" class="inputbox my-3 w-100" id="b10" placeholder="User"  spellcheck=false >
+
+												
+												<input type="password" class="inputbox my-3 w-100" id="b11" placeholder="Password"  spellcheck=false >
+																						
+												<input type="password" class="inputbox my-3 w-100" id="b12" placeholder="Confirm Password"  spellcheck=false >
+											</form>			
+			</div>
+			
+				
+		</div>
+		<div class="col-2"></div>
+	</div>
+			<div class="row">
+					<div class="col-2"></div>
+					<div class="col-8">
+					<p align="right"><input type="button" id="b3" class="login-button" style="margin-top:30px" value="Submit" onclick="validate()"></p>
+					</div>
+					<div class="col-2"></div>
+				</div>
+				
+		</div>
+		
+		
+		
+	</div>
+	
+	
+	<script>
+		function validate()
+		{
+            var a = document.getElementById("b1").value;
+            var b = document.getElementById("b2").value;
+			var c = document.getElementById("b4").value;
+			var d = document.getElementById("b5").value;
+			var e = document.getElementById("b6").value;
+			var f = document.getElementById("b3").value;
+			var g = document.getElementById("b7").value;
+			var h = document.getElementById("b8").value;
+			var i = document.getElementById("b9").value;
+			var j = document.getElementById("b10").value;
+			var k = document.getElementById("b11").value;
+			var l = document.getElementById("b12").value;
+			
+			if(a=="" || b=="" || c=="Date" || d=="Month" || e=="Year" || f=="" || g=="" || h=="" || i=="" || j=="" || k=="" || l=="")
+			{
+				alert("Fill all the details");
+			}
+			else
+			{
+				alert("Your account has created successfully");
+				window.location="login.html";
+			}
+			
+            
+    	}
+	</script>	
+	
+</body>
+
+</html>

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+	
+	<title>Old Book | Home</title>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
+	<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+      
+	  .bcg
+	  {
+		background:red;
+	  }
+	  
+	  a,a:link,a:active,a:hover
+	  {
+		text-decoration:none;		
+	  }
+	  
+	  .know-more
+	  {
+			width:150px;
+			height:50px;
+			background:white;
+			color:black;
+			font-size:17px;
+			border:2px solid black;
+	  }
+	  
+	   .know-more:hover, .know-more:focus
+	  {
+			border:2px solid orange;
+			outline:0 none;
+			font-size:19px;
+			font-weight:400;
+	  }
+	  
+	  .join-us
+	  {
+			width:150px;
+			height:50px;
+			background:black;
+			color:white;
+			font-size:17px;
+			border:0px solid black;
+			font-weight:500;
+			letter-spacing:3px;
+	  }
+	  
+	  .join-us:hover, .join-us:focus
+	  {
+			background:orange;
+			color:black;
+			outline:0 none;
+			font-size:20px;
+	  }
+	  
+	  .search
+	  {
+			width:30vw;
+			height:50px;
+			background:lightgrey;
+			color:black;
+			font-size:17px;
+			border:0px solid black;
+			font-weight:500;
+			letter-spacing:1px;
+			margin-top:100px;
+			text-indent:17px;
+	  }
+	  
+	  .search-box::placeholder
+	  {
+			font-size:15px;
+			color:grey;
+			letter-spacing:1px;
+			font-weight:normal;
+			text-indent:20px;
+	  }
+	  
+	  .search-box:hover
+	  {
+		    border:0px solid orange;
+			border-left:10px solid orange;		
+			text-indent:7px;
+			outline:0px solid;
+	  }
+	  
+	  .search-box:focus
+	  {
+		border:0px solid orange;
+		border-left:10px solid orange;	
+		text-indent:7px;
+		outline:0px solid;			
+	  }
+	  
+	  .search-box:focus::placeholder
+	  {
+		text-indent:10px;
+	  }
+	  
+	  .search-box:hover::placeholder
+	  {
+			text-indent:10px;
+			outline:0px solid;
+	  }
+	  
+
+	  .sell-buy
+	  {
+			background:lightgrey; 
+			height:300px;
+			width:100%;
+			display:inline-block; 
+			margin-top:80px;
+			border:2px solid white;
+			overflow:hidden;
+	  }
+	  
+	  .sell-buy-hover:hover
+	  {
+			border:2px solid white;
+			border-top:6px solid orange;
+	  }	  
+	  	  
+	  .home-hover
+	  {
+		background:black;
+		color:white;
+		border:2px solid white;
+	  }
+	 
+	
+	  .home-hover:hover
+	  {
+		background:orange;
+		color:black;
+		overflow:hidden;
+	  }
+	  
+	  .nav-hover
+	  {
+		border:2px solid white;
+		overflow:hidden;
+	  }	
+	
+	  .nav-hover:hover
+	  {
+		border:2px solid orange;
+		overflow:hidden;	
+	  }
+	  
+	  .oldtext
+	  {
+		background-image:url('Images/old.jpg');
+		color:transparent;
+		-webkit-background-clip:text;
+		background-size:300%;
+		filter:brightness(100%);
+		
+	  }
+	  
+	  .animate-old
+	  {
+		animation: a1 5s ease-in-out infinite;
+	  }
+	  
+	  @keyframes a1
+	  {
+			0%
+			{
+			background-position:0%;
+			color:black;
+			}
+			
+			80%
+			{
+			background-position:100%;
+			color:transparent;
+			}
+			
+			100%
+			{
+			background-position:100%;
+			color:black;
+			}
+	  }
+	  .inputbox
+			{
+				width:25vw;
+				border:0px;
+				border-bottom:solid lightgrey 1px;
+				background:rgba(0,0,0,0);
+				font-size:18px;
+				color:white;
+			}
+			input[type="email"]:focus
+		{
+			outline:none;
+			border-bottom:solid royalblue 2px;
+		}
+		
+	input[type="password"]:focus
+		{
+			outline:none;
+			border-bottom:solid royalblue 2px;
+		}
+		
+	.login-button
+	  {
+			width:130px;
+			height:45px;
+			background:black;
+			color:black;
+			font-size:17px;
+			border:0px solid black;
+			font-weight:500;
+			letter-spacing:2px;
+	  }
+	  
+	   .login-button:hover
+	  {
+			background:orange;
+			color:black;
+			font-size:19px;
+			outline:none;
+			
+	  }
+		
+	
+	  
+	  
+	  
+	
+	</style>
+
+	
+</head>
+
+<body>
+	<div class="container-fluid">
+	
+		
+		
+		<div class="row">
+		
+			
+			<div class="col-12">
+	
+				<nav class="navbar navbar-expand-sm navbar-light ">
+				
+					<a href="#" class="navbar-brand">
+						
+						
+					</a> 
+					
+					
+					<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+					
+						<div class="navbar-nav" style="margin-left:11%">
+							<a href="home.html" class="nav-item mx-2 py-2 home-hover px-4">
+								<span class="fa fa-home"></span> Home</a>
+							<a href="login.html" class="nav-item py-2 nav-hover px-4 text-dark">Login</a>
+							<a href="about.html" class="nav-item py-2 nav-hover px-4 text-dark">About</a>
+							
+						</div>
+						
+						<div class="navbar-nav ml-auto">
+							<a href="#" class="nav-item nav-link"></a>
+						</div>
+					</div>
+				</nav>	
+				
+			</div>
+			
+			<div class="col-lg-6 col-xs-12">
+				
+				<div class="row mt-5">				
+					<div class="col-lg-3 col-md-3 col-sm-3"></div>
+					<div class="col-lg-9 col-md-9 col-sm-9">			
+						<font style="font-size:160px; font-weight:650; line-height:180px" class="oldtext animate-old">old</font>
+					</div>
+				</div>
+				
+				<div class="row mt-5">				
+					<div class="col-lg-3 col-md-3 col-sm-3"></div>
+					<div class="col-lg-9 col-md-9 col-sm-9">			
+						<font style="color:black; font-size:160px; font-weight:400; line-height:20px">book</font>
+					</div>
+				</div>
+				
+				
+				<div class="row mt-5">				
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-0"></div>
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">			
+						<a href="about.html"><input type="button" class="know-more ml-2" value="Know More"></a>
+					</div>
+					
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-0"></div>
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">			
+						<a href="sign up.html"><input type="button" class="join-us ml-2 mt-4" value="Join Us"></a>
+					</div>
+				</div>
+			
+			</div>
+			
+			<div class="col-md-12 col-lg-6 col-sm-12">
+				<!--<input type="text" class="search ml-2"><br>!-->
+				
+				<div class="col-lg-9 col-md-12 col-sm-12">		
+					<p style="position:absolute; margin-top:70px; color:red; display:none" id="alert1">Type something to search</p>
+					<input id="searchbook" type="text" onClick="rotateicon()" class="search search-box w-100" placeholder="Book Name, Author, Book Category etc">	
+					<a href="#"><span id="searchicon" class="fa fa-search" style="position:absolute; margin-top:112px; font-size:25px; text-indent:-35px; color:black"></span></a>
+				
+				</div>
+				
+				<div class="col-lg-9 col-md-12 col-sm-12">
+					
+					<a href="#" data-toggle="modal" data-target="#myModal">
+					<div onmouseover="sellingonhover()" onmouseout="sellingouthover()" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 sell-buy sell-buy-hover">						
+					
+					<div align="right" style="position:absolute; top:35%; left:10%" class="w-100">
+					<img id="sellimg" src="Images/b1.png" style="z-index:0; height:200px; width:210px; opacity:0.2; filter:grayscale(100%);">
+					</div> 
+					
+					<p class="p-3" style="height:93px; overflow:hidden"><font id="sellfont" style="color:black; font-size:40px; font-weight:500">Sell</font></p>
+					
+					<p class="mt-4 pl-3 pr-3 text-justify" style="height:130px;"><font style="color:black; font-size:17px; font-weight:400">
+					<b>Sell</b> your old and unused books at your own value.</font></p>
+					
+					<div align="right" style="position:relative; top:-7px; left:15px">
+					<span id="sellbutton1" class="fa fa-long-arrow-right py-2 px-3"data-toggle="modal" data-target="#myModal"style="background:black; color:white; font-size:24px"></span>
+					</div>	
+					
+					</div>
+					</a>
+					
+					<a href="#"data-toggle="modal" data-target="#myModal">
+					<div onmouseover="buyonhover()" onmouseout="buyouthover()" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 sell-buy sell-buy-hover" style="background:black; margin-left:-5px">						
+					
+					<div align="right" style="position:absolute; top:33%; left:10%" class="w-100">
+					<img id="buyimg" src="Images/b2.png" style="z-index:0; height:180px; width:190px; opacity:0.2; filter:invert(100%);">
+					</div> 
+					
+					
+					<p class="p-3" style="height:93px; overflow:hidden"><font id="buyfont" style="color:white; font-size:40px; font-weight:300;">Buy</font></p>
+					
+					<p class="mt-4 pl-3 pr-3 text-justify" style="height:130px;"><font style="color:white; font-size:17px; font-weight:300">
+					<b>Purchase</b> used books at cheaper rates now.</font></p>
+					
+					<div align="right" style="position:relative; top:-6px; left:15px">
+					<span id="buybutton1" class="fa fa-long-arrow-right py-2 px-3"data-toggle="modal" data-target="#myModal" style="background:lightgrey; color:black; font-size:24px;"></span>
+					</div>	
+					
+					</div>
+					</a>
+					
+					
+					
+				</div>
+				
+				
+			</div>
+			<div class="modal fade" id="myModal" role="dialog" >
+				<div class="modal-dialog" >
+				
+				  <!-- Modal content-->
+				  <div class="modal-content">
+					   
+					<div class="modal-body" style="height:500px; width:500px;">
+						<div class="row" style="border:0px solid black;">
+								<div class="col-2"></div>
+								<div class="col-8">
+										<h2>You Need To Login</h2>
+								</div>
+	
+							
+							<div class="col-2"></div>
+	
+						</div>
+						<div class="row">
+							<div class="col-2"></div>
+							<div class="col-8">
+							<p style="position:absolute; margin-top:50px; color:red;" id="login-alert"></p>
+							<input type="email" class="inputbox w-100" style="margin-top:102px; -webkit-text-fill-color:black; " id="b1" placeholder="Username" autocomplete=off spellcheck=false>
+							<span id="usericon" class="fa fa-user" style="position:absolute; margin-top:108px; font-size:18px; text-indent:-18px; color:grey"></span>
+							</div>
+							<div class="col-2"></div>
+						</div>
+						
+						<div class="row">
+							<div class="col-2"></div>
+							<div class="col-8">
+							<input type="password" class="inputbox my-5 w-100" id="b2" placeholder="Password"  spellcheck=false style="-webkit-text-fill-color:black ;">
+							<span id="passwordicon" class="fa fa-lock" style="position:absolute; margin-top:55px; font-size:18px; text-indent:-18px; color:grey"></span>
+							
+							</div>
+							<div class="col-2"></div>
+						</div>
+						
+						<div class="row">
+							<div class="col-2"></div>
+							<div class="col-8">
+							<p><input type="button" id="b5" class="login-button" style="margin-bottom:184px; -webkit-text-fill-color:white; " value="Login"></p>
+							</div>
+							<div class="col-2"></div>
+						</div>
+						</div>
+				  
+				</div>
+			  </div>
+			
+			
+			
+		
+		</div>
+		
+	</div>
+
+	
+	<script>
+		
+		function sellingonhover()
+		{
+			document.getElementById("sellfont").style.fontSize="45px";
+			document.getElementById("sellfont").style.fontWeight="700";
+			document.getElementById("sellbutton1").style.background="orange";
+			document.getElementById("sellbutton1").style.color="black";
+			document.getElementById("sellimg").style.height="250px";
+			document.getElementById("sellimg").style.width="240px";
+			
+			
+			
+		}
+		
+		function sellingouthover()
+		{
+			document.getElementById("sellfont").style.fontSize="40px";
+			document.getElementById("sellfont").style.fontWeight="500";
+			document.getElementById("sellbutton1").style.background="black";
+			document.getElementById("sellbutton1").style.color="white";
+			document.getElementById("sellimg").style.height="200px";
+			document.getElementById("sellimg").style.width="210px";			
+		}
+		
+		function buyonhover()
+		{
+			document.getElementById("buyimg").style.height="200px";
+			document.getElementById("buyimg").style.width="210px";	
+			document.getElementById("buyfont").style.fontSize="45px";
+			document.getElementById("buyfont").style.fontWeight="600";
+			document.getElementById("buybutton1").style.background="orange";
+			document.getElementById("buybutton1").style.color="black";
+			
+		}
+		
+		function buyouthover()
+		{
+			document.getElementById("buyimg").style.height="180px";
+			document.getElementById("buyimg").style.width="190px";
+			document.getElementById("buyfont").style.fontSize="40px";
+			document.getElementById("buyfont").style.fontWeight="300";
+			document.getElementById("buybutton1").style.background="lightgrey";
+			document.getElementById("buybutton1").style.color="black";
+		
+		}
+		
+		function rotateicon()
+		{
+			// Not implemeted yet
+		}
+		
+		$(document).ready( 
+						   function()
+						   {
+								$("#searchicon").mouseenter(
+													  function()
+													    {															
+															$(this).css("text-shadow","0px 0px 10px orange");													  
+													    }
+													  );
+													  
+								$("#searchicon").mouseleave(
+													  function()
+													    {
+															$(this).css("text-shadow","0px 0px 0px");
+													  
+													    }
+													  );	
+								
+								
+								$("#searchicon").click(
+													  function()
+													    {
+															a = $("#searchbook").val();
+															if(a.length==0)															
+															{
+																$("#alert1").fadeIn(1);	
+																$("#alert1").fadeOut(3000);	
+															}
+
+																														
+													    }
+													  );						  
+						   }		
+						 );
+						 $("#b5").click(
+											function()
+											{
+												var a = $("#b1").val();
+												var b = $("#b2").val();
+												if((a.length==0)&&(b.length==0))
+												{
+													$("#login-alert").text("Details Required*");
+													$("#b1").css("border-bottom","1px solid red");
+													$("#b2").css("border-bottom","1px solid red");	
+													$("#usericon").css("color","red");	
+													$("#passwordicon").css("color","red");	
+													
+													
+												}
+												else if((a.length==0))
+												{
+													$("#login-alert").text("Username Required*");
+													$("#b1").css("border-bottom","1px solid red");
+													$("#usericon").css("color","red");	
+												}
+												else if((b.length==0))
+												{
+													$("#login-alert").text("Password Required*");
+													$("#b2").css("border-bottom","1px solid red");
+													$("#passwordicon").css("color","red");	
+												}
+												else if((a=="1998")&&(b="100"))
+												{
+													$("#login-alert").text("Successful");
+												     window.location="profile.html";
+												}
+												else
+												{
+													$("#login-alert").text("Invalid Details");
+													$("#b1").css("border-bottom","1px solid red");
+													$("#b2").css("border-bottom","1px solid red");
+													$("#usericon").css("color","red");	
+													$("#passwordicon").css("color","red");	
+												}
+												
+											}
+											
+											);
+						
+					 
+		
+		
+		
+	</script>
+	
+	
+	
+</body>
+
+</html>

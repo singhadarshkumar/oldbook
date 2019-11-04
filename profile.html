@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+	
+	<title>Old Book | Home</title>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
+	<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+      
+	  .bcg
+	  {
+		background:red;
+	  }
+	  
+	  a,a:link,a:active,a:hover
+	  {
+		text-decoration:none;		
+	  }
+	  
+	  .know-more
+	  {
+			width:150px;
+			height:50px;
+			background:white;
+			color:black;
+			font-size:17px;
+			border:2px solid black;
+	  }
+	  
+	   .know-more:hover, .know-more:focus
+	  {
+			border:2px solid orange;
+			outline:0 none;
+			font-size:19px;
+			font-weight:400;
+	  }
+	  
+	  .join-us
+	  {
+			width:150px;
+			height:50px;
+			background:black;
+			color:white;
+			font-size:17px;
+			border:0px solid black;
+			font-weight:500;
+			letter-spacing:3px;
+	  }
+	  
+	  .join-us:hover, .join-us:focus
+	  {
+			background:orange;
+			color:black;
+			outline:0 none;
+			font-size:20px;
+	  }
+	  
+	  .search
+	  {
+			width:30vw;
+			height:50px;
+			background:lightgrey;
+			color:black;
+			font-size:17px;
+			border:0px solid black;
+			font-weight:500;
+			letter-spacing:1px;
+			margin-top:100px;
+			text-indent:17px;
+	  }
+	  
+	  .search-box::placeholder
+	  {
+			font-size:15px;
+			color:grey;
+			letter-spacing:1px;
+			font-weight:normal;
+			text-indent:20px;
+	  }
+	  
+	  .search-box:hover
+	  {
+		    border:0px solid orange;
+			border-left:10px solid orange;		
+			text-indent:7px;
+			outline:0px solid;
+	  }
+	  
+	  .search-box:focus
+	  {
+		border:0px solid orange;
+		border-left:10px solid orange;	
+		text-indent:7px;
+		outline:0px solid;			
+	  }
+	  
+	  .search-box:focus::placeholder
+	  {
+		text-indent:10px;
+	  }
+	  
+	  .search-box:hover::placeholder
+	  {
+			text-indent:10px;
+			outline:0px solid;
+	  }
+	  
+
+	  .sell-buy
+	  {
+			background:lightgrey; 
+			height:300px;
+			width:100%;
+			display:inline-block; 
+			margin-top:30px;
+			border:2px solid white;
+			overflow:hidden;
+	  }
+	  
+	  .sell-buy-hover:hover
+	  {
+			border:2px solid white;
+			border-top:6px solid orange;
+	  }	  
+	  	  
+	  .home-hover
+	  {
+		background:black;
+		color:white;
+		border:2px solid white;
+	  }
+	 
+	
+	  .home-hover:hover
+	  {
+		background:orange;
+		color:black;
+		overflow:hidden;
+	  }
+	  
+	  .nav-hover
+	  {
+		border:2px solid white;
+		overflow:hidden;
+	  }	
+	
+	  .nav-hover:hover
+	  {
+		border:2px solid orange;
+		overflow:hidden;	
+	  }
+	  
+	  .oldtext
+	  {
+		background-image:url('Images/old.jpg');
+		color:transparent;
+		-webkit-background-clip:text;
+		background-size:300%;
+		filter:brightness(100%);
+		
+	  }
+	  
+	  .animate-old
+	  {
+		animation: a1 5s ease-in-out infinite;
+	  }
+	  
+	  @keyframes a1
+	  {
+			0%
+			{
+			background-position:0%;
+			color:black;
+			}
+			
+			80%
+			{
+			background-position:100%;
+			color:transparent;
+			}
+			
+			100%
+			{
+			background-position:100%;
+			color:black;
+			}
+	  }
+	  .inputbox
+			{
+				width:25vw;
+				border:0px;
+				border-bottom:solid lightgrey 1px;
+				background:rgba(0,0,0,0);
+				font-size:18px;
+				color:white;
+			}
+			input[type="email"]:focus
+		{
+			outline:none;
+			border-bottom:solid royalblue 2px;
+		}
+		
+	input[type="password"]:focus
+		{
+			outline:none;
+			border-bottom:solid royalblue 2px;
+		}
+		
+	.login-button
+	  {
+			width:130px;
+			height:45px;
+			background:black;
+			color:black;
+			font-size:17px;
+			border:0px solid black;
+			font-weight:500;
+			letter-spacing:2px;
+	  }
+	  
+	   .login-button:hover
+	  {
+			background:orange;
+			color:black;
+			font-size:19px;
+			outline:none;
+			
+	  }
+		
+	
+	  
+	  
+	  
+	
+	</style>
+
+	
+</head>
+
+<body>
+	<div class="container-fluid">
+	
+		
+		
+		<div class="row"style="border: 0px solid black;">
+		
+			
+            <div class="col-lg-8"style="border: 0px solid black;"></div>
+            <div class="col-lg-4"style="border: 0px solid black;">
+                <div class="row"style="border: 0px solid black;">
+                <div class="col-lg-5 pt-2"style="border: 0px solid black;"><h5>Dev Agnihotri</h5></div>
+                
+                <div class="col-lg-7"style="border: 0px solid black;"data-toggle="modal" data-target=".bd-example-modal-sm">
+                <img class="img-thumbnail" src="Images/Dev.jpeg" style="height:45px; width:45px;" ></img>
+                </div>
+                <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                  <div class="modal-content">
+                      <form action="home.html">
+                <button class="btn btn-outline-dark w-100" >logout</button>
+            </form>      
+            </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            
+		
+				
+			
+			
+			<div class="col-lg-6 col-xs-12">
+				
+				<div class="row mt-5" style="border: 0px solid black; margin-bottom:-35px;">				
+					<div class="col-lg-3 col-md-3 col-sm-3" style="border: 0px solid black;"></div>
+					<div class="col-lg-9 col-md-9 col-sm-9"style="border: 0px solid black;">			
+						<font style="font-size:68px; font-weight:400;" class="oldtext animate-old">Welcome</font>
+					</div>
+				</div>
+				
+				<div class="row"style="border: 0px solid black;">				
+					<div class="col-lg-4 col-md-3 col-sm-3"style="border: 0px solid black;"></div>
+					<div class="col-lg-8 col-md-9 col-sm-9"style="border: 0px solid black;">			
+						<font style="color:black; font-size:58px; font-weight:400;">Dev Agnihotri</font>
+					</div>
+                </div>
+                <div class="row"style="border: 0px solid black;">
+                    <div class="col-6"style="border: 0px solid black; ">
+                        <a href="sell.html">
+                            <div onmouseover="sellingonhover()" onmouseout="sellingouthover()" class="col-lg-8 col-md-9 col-sm-9 col-xs-12 sell-buy sell-buy-hover float-right">						
+                            
+                            <div align="right" style="position:absolute; top:35%; left:10%" class="w-100">
+                            <img id="sellimg" src="Images/b1.png" style="z-index:0; height:200px; width:210px; opacity:0.2; filter:grayscale(100%);">
+                            </div> 
+                            
+                            <p class="p-3" style="height:93px; overflow:hidden"><font id="sellfont" style="color:black; font-size:40px; font-weight:500">Sell</font></p>
+                            
+                            <p class="mt-5 pl-3 pr-3 text-justify" style="height:130px;"><font style="color:black; font-size:17px; font-weight:400">
+                            <b>Sell</b> your old and unused books at your own value.</font></p>
+                            
+                            <div align="right" style="position:relative; top:-30px; left:15px">
+                            <span id="sellbutton1" class="fa fa-long-arrow-right py-2 px-3"style="background:black; color:white; font-size:24px"></span>
+                            </div>	
+                            
+                            </div>
+                            </a>
+                            
+                    </div>
+                    <div class="col-6"style="border: 0px solid black;">
+                        <a href="#"data-toggle="modal" data-target=".bd-example-modal-lg">
+                            <div onmouseover="buyonhover()" onmouseout="buyouthover()" class="col-lg-8 col-md-9 col-sm-9 col-xs-12 sell-buy sell-buy-hover" style="background:black; margin-left:-5px">						
+                            
+                            <div align="right" style="position:absolute; top:33%; left:10%" class="w-100">
+                            <img id="buyimg" src="Images/b2.png" style="z-index:0; height:180px; width:190px; opacity:0.2; filter:invert(100%);">
+                            </div> 
+                            
+                            
+                            <p class="p-3" style="height:93px; overflow:hidden"><font id="buyfont" style="color:white; font-size:40px; font-weight:300;">Buy</font></p>
+                            
+                            <p class="mt-4 pl-3 pr-3 text-justify" style="height:130px;"><font style="color:white; font-size:17px; font-weight:300">
+                            Purchase used books at cheaper rates now.</font></p>
+                            
+                            <div align="right" style="position:relative; top:-6px; left:15px">
+                            <span id="buybutton1" class="fa fa-long-arrow-right py-2 px-3" style="background:lightgrey; color:black; font-size:24px;"></span>
+                            </div>	
+                            
+                            </div>
+                            </a>
+                            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                      <div class="modal-content">
+                                            <div style="margin-top:-100px ;">		
+                                                    <p style="position:absolute; margin-top:70px; color:red; display:none" id="alert1">Type something to search</p>
+                                                    <input id="searchbook" type="text" onClick="rotateicon()" class="search search-box w-100" placeholder="Book Name, Author, Book Category etc">	
+                                                    <a href="#"><span id="searchicon" class="fa fa-search" style="position:absolute; margin-top:112px; font-size:25px; text-indent:-35px; color:black"></span></a>
+                                                
+                                                </div>
+                                                <div class="card-body"style="height:300px;">
+                                                    <div class="row text-center">
+                                                        <div class="col-4">
+                                                                <div class="card shadow-lg" style="width: 10rem; height:15rem ;">
+                                                                        <img src="Images/book1.jpg" class="card-img-top" alt="..." style="height:150px; width:10rem;">
+                                                                        <div class="card-header"style="font-size:9px;">Miss Violet And Great War</div>
+                                                                        <div class="card-body">
+                                                                        <p style="font-size:11px;margin-top:-15px;">Author: Alex pin</p>
+                                                                        <p style="font-size:11px;margin-top:-8px;">Price:Rs 549</p>
+                                                        
+                                                                          
+                                                                        </div>
+                                                                      </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                                <div class="card shadow-lg" style="width: 10rem; height:15rem">
+                                                                        <img src="Images/book2.png" class="card-img-top" alt="..." style="height:150px; width:10rem;">
+                                                                        <div class="card-header"style="font-size:9px;">A Strong Girl</div>
+                                                                        <div class="card-body">
+                                                                        <p style="font-size:11px;margin-top:-15px;">Author:Garima Pradhan</p>
+                                                                        <p style="font-size:11px;margin-top:-8px;">Price:Rs 429</p>
+                                                        
+                                                                          
+                                                                        </div>
+                                                                      </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                                <div class="card shadow-lg" style="width: 10rem; height:15rem">
+                                                                        <img src="Images/book3.jpg" class="card-img-top" alt="..." style="height:150px; width:10rem;">
+                                                                        <div class="card-header"style="font-size:9px;">Mother Of Mercy</div>
+                                                                        <div class="card-body">
+                                                                        <p style="font-size:11px;margin-top:-15px;">Author:Lee Charles</p>
+                                                                        <p style="font-size:11px;margin-top:-8px;">Price:Rs 601</p>
+                                                        
+                                                                          
+                                                                        </div>
+                                                                      </div>
+                                                        </div>
+                                                        
+                                                    </div>
+
+                                             
+                                                
+                                                
+                                                </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                    </div>
+
+                </div>
+			
+			</div>
+			
+			<div class="col-md-12 col-lg-6 col-sm-12"style="border: 0px solid black;">
+				<!--<input type="text" class="search ml-2"><br>!-->
+				
+				<div class="col-lg-9 col-md-12 col-sm-12"style="border: 0px solid black;">		
+					<p style="position:absolute; margin-top:70px; color:red; display:none" id="alert1">Type something to search</p>
+					<input id="searchbook" type="text" onClick="rotateicon()" class="search search-box w-100" placeholder="Book Name, Author, Book Category etc">	
+					<a href="#"><span id="searchicon" class="fa fa-search" style="position:absolute; margin-top:112px; font-size:25px; text-indent:-35px; color:black"></span></a>
+				
+				</div>
+				
+				<div class="col-lg-9 col-md-12 col-sm-12"style="border: 0px solid black;">
+
+                        <div class="card mt-5  " style="width:100%;">
+                            <div class="card-header bg-dark text-white">
+                                    <h5 class="card-title ">My Messages</h5>
+
+</div>
+                                <div class="card-body "style="height:250px">
+                                  <p class="card-text text-muted">No Messages Yet</p>
+                                  
+                                </div>
+                              </div>
+					
+					
+					
+					
+					
+				</div>
+				
+				
+			</div>
+		
+		
+	</div>
+
+	
+	<script>
+		
+		function sellingonhover()
+		{
+			document.getElementById("sellfont").style.fontSize="45px";
+			document.getElementById("sellfont").style.fontWeight="700";
+			document.getElementById("sellbutton1").style.background="orange";
+			document.getElementById("sellbutton1").style.color="black";
+			document.getElementById("sellimg").style.height="250px";
+			document.getElementById("sellimg").style.width="240px";
+			
+			
+			
+		}
+		
+		function sellingouthover()
+		{
+			document.getElementById("sellfont").style.fontSize="40px";
+			document.getElementById("sellfont").style.fontWeight="500";
+			document.getElementById("sellbutton1").style.background="black";
+			document.getElementById("sellbutton1").style.color="white";
+			document.getElementById("sellimg").style.height="200px";
+			document.getElementById("sellimg").style.width="210px";			
+		}
+		
+		function buyonhover()
+		{
+			document.getElementById("buyimg").style.height="200px";
+			document.getElementById("buyimg").style.width="210px";	
+			document.getElementById("buyfont").style.fontSize="45px";
+			document.getElementById("buyfont").style.fontWeight="600";
+			document.getElementById("buybutton1").style.background="orange";
+			document.getElementById("buybutton1").style.color="black";
+			
+		}
+		
+		function buyouthover()
+		{
+			document.getElementById("buyimg").style.height="180px";
+			document.getElementById("buyimg").style.width="190px";
+			document.getElementById("buyfont").style.fontSize="40px";
+			document.getElementById("buyfont").style.fontWeight="300";
+			document.getElementById("buybutton1").style.background="lightgrey";
+			document.getElementById("buybutton1").style.color="black";
+		
+		}
+		
+		function rotateicon()
+		{
+			// Not implemeted yet
+		}
+		
+		$(document).ready( 
+						   function()
+						   {
+								$("#searchicon").mouseenter(
+													  function()
+													    {															
+															$(this).css("text-shadow","0px 0px 10px orange");													  
+													    }
+													  );
+													  
+								$("#searchicon").mouseleave(
+													  function()
+													    {
+															$(this).css("text-shadow","0px 0px 0px");
+													  
+													    }
+													  );	
+								
+								
+								$("#searchicon").click(
+													  function()
+													    {
+															a = $("#searchbook").val();
+															if(a.length==0)															
+															{
+																$("#alert1").fadeIn(1);	
+																$("#alert1").fadeOut(3000);	
+															}
+
+																														
+													    }
+													  );						  
+						   }		
+						 );
+		
+		
+		
+		
+	</script>
+	
+	
+	
+</body>
+
+</html>

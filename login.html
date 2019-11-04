@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+	
+	<title>Old Book | Login</title>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
+	<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+      
+	  .bcg
+	  {
+		background:red;
+	  }
+	  
+	  a,a:link,a:active,a:hover
+	  {
+		text-decoration:none;		
+	  }
+	  
+	  .know-more
+	  {
+			width:150px;
+			height:50px;
+			background:white;
+			color:black;
+			font-size:17px;
+			border:2px solid black;
+	  }
+	  
+	   .know-more:hover, .know-more:focus
+	  {
+			border:2px solid orange;
+			outline:0 none;
+			font-size:19px;
+			font-weight:400;
+	  }
+	  
+	  .join-us
+	  {
+			width:150px;
+			height:50px;
+			background:black;
+			color:white;
+			font-size:17px;
+			border:0px solid black;
+			font-weight:500;
+			letter-spacing:2px;
+	  }
+	  
+	  .join-us:hover, .join-us:focus
+	  {
+			background:orange;
+			color:black;
+			outline:0 none;
+			font-size:18px;
+	  }
+	  
+	  .search
+	  {
+			width:30vw;
+			height:50px;
+			background:lightgrey;
+			color:black;
+			font-size:17px;
+			border:0px solid black;
+			font-weight:500;
+			letter-spacing:1px;
+			margin-top:100px;
+			text-indent:17px;
+	  }
+	  
+	  .search-box::placeholder
+	  {
+			font-size:15px;
+			color:grey;
+			letter-spacing:1px;
+			font-weight:normal;
+			text-indent:20px;
+	  }
+	  
+	  .search-box:hover
+	  {
+		    border:0px solid orange;
+			border-left:10px solid orange;		
+			text-indent:7px;
+			outline:0px solid;
+	  }
+	  
+	  .search-box:focus
+	  {
+		border:0px solid orange;
+		border-left:10px solid orange;	
+		text-indent:7px;
+		outline:0px solid;			
+	  }
+	  
+	  .search-box:focus::placeholder
+	  {
+		text-indent:10px;
+	  }
+	  
+	  .search-box:hover::placeholder
+	  {
+			text-indent:10px;
+			outline:0px solid;
+	  }
+	  
+
+	
+	  	  
+	  .home-hover
+	  {
+		background:black;
+		color:white;
+		border:2px solid white;
+	  }
+	 
+	
+	  .home-hover:hover
+	  {
+		background:orange;
+		color:black;
+		overflow:hidden;
+	  }
+	  
+	  .nav-hover
+	  {
+		border:2px solid white;
+		overflow:hidden;
+	  }	
+	
+	  .nav-hover:hover
+	  {
+		border:2px solid orange;
+		overflow:hidden;	
+	  }
+	  
+	  .oldtext
+	  {
+		background-image:url('Images/old.jpg');
+		color:transparent;
+		-webkit-background-clip:text;
+		background-size:300%;
+		filter:brightness(100%);		
+	  }
+	  
+	  .animate-old
+	  {
+		animation: a1 5s ease-in-out infinite;
+	  }
+	  
+	  @keyframes a1
+	  {
+			0%
+			{
+			background-position:0%;
+			color:black;
+			}
+			
+			80%
+			{
+			background-position:100%;
+			color:transparent;
+			}
+			
+			100%
+			{
+			background-position:100%;
+			color:black;
+			}
+	  }
+	  
+	  
+	@media(max-width:1024px)
+	{
+    	.size-change
+		{
+			font-size:85px;	
+			color:black; 
+			font-weight:400; 
+			line-height:20px
+			
+    	}
+		
+		.size-change2
+		{
+			font-size:105px;	
+			font-weight:550;
+			line-height:140px;
+			color:red;
+			background-image:url('Images/old.jpg');
+			color:transparent;
+			-webkit-background-clip:text;
+			background-size:300%;
+			filter:brightness(100%);
+    	}
+		
+    }
+	  
+	@media(min-width:1024px)
+	{
+		.text-account-size
+		{
+			font-size:120px;
+			color:black; 
+			font-weight:400; 
+			line-height:20px
+		}
+		
+		.text-no-size
+		{
+			font-size:160px;
+			font-weight:550;
+			line-height:140px;
+			background-image:url('Images/old.jpg');
+			color:transparent;
+			-webkit-background-clip:text;
+			background-size:300%;
+			filter:brightness(100%);
+		}
+	}
+	
+	.inputbox
+			{
+				width:25vw;
+				border:0px;
+				border-bottom:solid lightgrey 1px;
+				background:rgba(0,0,0,0);
+				font-size:18px;
+				color:white;
+			}
+			
+	input[type="email"]:focus
+		{
+			outline:none;
+			border-bottom:solid royalblue 2px;
+		}
+		
+	input[type="password"]:focus
+		{
+			outline:none;
+			border-bottom:solid royalblue 2px;
+		}
+		
+	.login-button
+	  {
+			width:130px;
+			height:45px;
+			background:white;
+			color:black;
+			font-size:17px;
+			border:0px solid black;
+			font-weight:500;
+			letter-spacing:2px;
+	  }
+	  
+	   .login-button:hover
+	  {
+			background:orange;
+			color:black;
+			font-size:19px;
+			outline:none;
+	  }
+		
+	
+	
+	</style>
+
+	
+</head>
+
+<body>
+	<div class="container-fluid">
+	
+		
+		
+		<div class="row">
+		
+			<div class="col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+			<div class="col-lg-7 col-md-7">
+	
+				<nav class="navbar navbar-expand-sm navbar-light ">
+				
+					<a href="#" class="navbar-brand">
+						
+						
+					</a> 
+					
+					
+					<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+					
+						<div class="navbar-nav" style="margin-left:5%">
+							<a href="home.html" class="nav-item py-2 nav-hover px-4 text-dark">Home</a>
+							<a href="login.html" class="nav-item mx-2 py-2 home-hover px-4">
+								<span class="fa fa-sign-in"></span> Login</a>		
+							<a href="about.html" class="nav-item py-2 nav-hover px-4 text-dark">About</a>
+							
+						</div>
+						
+						<div class="navbar-nav ml-auto">
+							<a href="#" class="nav-item nav-link"></a>
+						</div>
+					</div>
+				</nav>	
+				
+			</div>
+			
+			<div class="col-lg-4 col-md-5" style="background:black">
+			</div>
+			
+			
+			
+			<div class="col-lg-6 col-xs-12 col-md-6">
+				
+				<div class="row mt-5">				
+					<div class="col-lg-3 col-md-0 col-sm-0"></div>
+					<div class="col-lg-9 col-md-6 col-sm-12" style="margin-top:20px">			
+						<font style="" class="oldtext animate-old text-no-size size-change2">No</font>
+					</div>
+				</div>
+				
+				<div class="row mt-5">				
+					<div class="col-lg-3 col-md-0 col-sm-0"></div>
+					<div class="col-lg-9 col-md-6 col-sm-12">			
+						<font class="size-change text-account-size" style="">Account?</font>
+					</div>
+				</div>
+				
+				
+				<div class="row mt-5">				
+					<div class="col-lg-3 col-md-0 col-sm-0 col-xs-0"></div>
+					<div class="col-lg-9 col-md-6 col-sm-12 col-xs-6">			
+						<a href="about.html"><input type="button" class="know-more ml-2" value="Know More"></a>
+					</div>
+					
+					<div class="col-lg-3 col-md-0 col-sm-0 col-xs-0"></div>
+					<div class="col-lg-9 col-md-6 col-sm-12 col-xs-6">			
+						<a href="sign up.html"><input type="button" class="join-us ml-2 mt-4" value="Create Now"></a>
+					</div>
+				</div>
+			
+			</div>
+			
+			
+			<div class="col-lg-6 col-xs-12 col-md-6 m-0 " >
+					
+				<div class="row"> 
+				<div class="col-md-2 col-lg-4 col-sm-0 p-0" ></div>
+				
+				<div class="col-md-10 col-lg-8 col-sm-12 mt-5 mt-lg-0 mt-md-0" style="background:black; height:100%">
+					<div class="row">
+						<p class="d-block mx-auto mt-5"><img src="Images/logo2.jpg" style="width:100px; heigth:100px"></p>
+					</div>
+					
+					<div class="row">
+						<div class="col-2"></div>
+						<div class="col-8">
+						<p style="position:absolute; margin-top:50px; color:red;" id="login-alert"></p>
+						<input type="email" class="inputbox w-100" style="margin-top:102px;" id="b1" placeholder="Username" autocomplete=off spellcheck=false>
+						<span id="usericon" class="fa fa-user" style="position:absolute; margin-top:108px; font-size:18px; text-indent:-18px; color:grey"></span>
+						</div>
+						<div class="col-2"></div>
+					</div>
+					
+					<div class="row">
+						<div class="col-2"></div>
+						<div class="col-8">
+						<input type="password" class="inputbox my-5 w-100" id="b2" placeholder="Password"  spellcheck=false>
+						<span id="passwordicon" class="fa fa-lock" style="position:absolute; margin-top:55px; font-size:18px; text-indent:-18px; color:grey"></span>
+						
+						</div>
+						<div class="col-2"></div>
+					</div>
+					
+					<div class="row">
+						<div class="col-2"></div>
+						<div class="col-8">
+						<p align="right"><input type="button" id="b3" class="login-button" style="margin-bottom:184px" value="Login"></p>
+						</div>
+						<div class="col-2"></div>
+					</div>
+					
+					
+					</div>
+				</div>
+				
+				</div>
+				
+			</div>		
+		
+		</div>
+		
+		
+		
+	</div>
+	
+	
+	<script>
+		
+	$(document).ready(
+					 function()
+						{
+							/*$("#b1, #b2").focus(
+										  function()
+											  {
+												$(this).css("color","white");
+											  }										  
+										  );*/
+										  
+							$("#b1").focus(
+										  function()
+											  {												
+													$("#b1").css("border-bottom","2px solid royalblue");
+													$("#usericon").css("color","royalblue");
+											  }										  
+										  );
+										  
+							$("#b2").focus(
+										  function()
+											  {
+													$("#b2").css("border-bottom","2px solid royalblue");
+													$("#passwordicon").css("color","royalblue");	
+											  }										  
+										  );
+										  
+										  
+										  
+							$("#b1, #b2").blur(
+										  function()
+											  {
+												$(this).css("color","grey");
+												a = $("#b1").val();
+												if(a.length!=0)
+												{
+													$("#b1").css("border-bottom","1px solid orange");
+													$("#usericon").css("color","orange");
+												}
+												else
+												{
+													$("#b1").css("border-bottom","1px solid lightgrey");
+													$("#usericon").css("color","lightgrey");
+												}
+												
+												b = $("#b2").val();
+												if(b.length!=0)
+												{
+													$("#b2").css("border-bottom","1px solid orange");
+													$("#passwordicon").css("color","orange");	
+												}
+												else
+												{
+													$("#b2").css("border-bottom","1px solid lightgrey");
+													$("#passwordicon").css("color","lightgrey");	
+												}												
+											  }										  
+										  );
+										  
+								$("#b3").click(
+											function()
+											{
+												var a = $("#b1").val();
+												var b = $("#b2").val();
+												if((a.length==0)&&(b.length==0))
+												{
+													$("#login-alert").text("Details Required*");
+													$("#b1").css("border-bottom","1px solid red");
+													$("#b2").css("border-bottom","1px solid red");	
+													$("#usericon").css("color","red");	
+													$("#passwordicon").css("color","red");	
+													
+													
+												}
+												else if((a.length==0))
+												{
+													$("#login-alert").text("Username Required*");
+													$("#b1").css("border-bottom","1px solid red");
+													$("#usericon").css("color","red");	
+												}
+												else if((b.length==0))
+												{
+													$("#login-alert").text("Password Required*");
+													$("#b2").css("border-bottom","1px solid red");
+													$("#passwordicon").css("color","red");	
+												}
+												else if((a=="1998")&&(b="100"))
+												{
+													$("#login-alert").text("Successful");
+												     window.location="profile.html";
+												}
+												else
+												{
+													$("#login-alert").text("Invalid Details");
+													$("#b1").css("border-bottom","1px solid red");
+													$("#b2").css("border-bottom","1px solid red");
+													$("#usericon").css("color","red");	
+													$("#passwordicon").css("color","red");	
+												}
+												
+											}
+											
+											)
+						}
+					 );
+		
+		
+	</script>
+	
+	
+	
+</body>
+
+</html>
